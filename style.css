@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Volle Höhe des Viewports */
+    margin: 0; /* Entfernt Standardabstand */
+}
+
+.overallLayout {
+    width: 550px;
+    height: 729px;
+    top: 126px;
+    left: 76px;
+    angle: 0 deg;
+    opacity: 1;
+    border: solid 1px rgb(171, 169, 169);
+    border-radius: 10px;
+    background-color: rgb(228, 228, 228);
+}
+
+.gridHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 285px;
+    angle: 0 deg;
+    opacity: 1;
+    background: rgba(105, 67, 255, 1);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.buttons {
+    width: 117px;
+    height: 42px;
+    top: 209px;
+    left: 217px;
+    border-radius: 5px;
+    angle: 0 deg;
+    opacity: 1;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+#inputEl {
+    width: 117;
+    height: 83;
+    top: 101px;
+    left: 217px;
+    border-radius: 5px;
+    border-width: 2px;
+    angle: 0 deg;
+    opacity: 1;
+    border: 2px solid rgba(178, 149, 255, 1);
+    background-color: rgba(105, 67, 255, 1);
+    font-family: Inter;
+    font-weight: 800;
+    font-style: Extra Bold;
+    font-size: 58px;
+    leading-trim: NONE;
+    line-height: 24.39px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+
+}
+
+.headerElements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;;
+}
+    
+.h2 {
+    width: 448.3999938964844px;
+    height: 38px;
+    font-family: Inter;
+    font-weight: 800;
+    font-style: Extra Bold;
+    font-size: 28px;
+    leading-trim: NONE;
+    line-height: 38px;
+    letter-spacing: -3%;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    color: white
+
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 22px;
+    margin-top: 22px;
+    border-top-left-radius: 4.68px;
+}
+
+.gridElements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    border-radius: 20px;
+    height: 108.57px;
+    background-color: whitesmoke;
+
+}
+
